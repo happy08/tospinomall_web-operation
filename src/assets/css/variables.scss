@@ -1,0 +1,23 @@
+/* 基本配置 */
+$baseColor: #42b7ae;
+$baseFontSize: 12px;
+
+/* 菜单栏 */
+$menuText: #bfcbd9;
+$menuActiveText: $baseColor;
+$subMenuActiveText: $baseColor;
+$menuBg: #ffffff;
+$menuHover: #ffffff;
+$subMenuBg: #ffffff;
+$subMenuHover: #ffffff;
+$sideBarWidth: 210px;
+:export {
+    menuText: $menuText;
+    menuActiveText: $menuActiveText;
+    subMenuActiveText: $subMenuActiveText;
+    menuBg: $menuBg;
+    menuHover: $menuHover;
+    subMenuBg: $subMenuBg;
+    subMenuHover: $subMenuHover;
+    sideBarWidth: $sideBarWidth;
+}

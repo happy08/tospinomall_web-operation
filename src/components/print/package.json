@@ -1,0 +1,56 @@
+{
+  "name": "@xingyuelongchen/vue3-print",
+  "version": "0.0.4",
+  "description": "Vue2和Vue3的打印插件, print! Good!",
+  "main": "lib/print.umd.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vue-cli-service build",
+    "lib": "vue-cli-service build --target lib --name index --dest lib print/index.js",
+    "lint": "vue-cli-service lint",
+    "serve": "vue-cli-service serve"
+  },
+  "author": "星月龙辰",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "core-js": "^3.6.5",
+    "vue": "^2.6.11",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "vue-template-compiler": "^2.6.11",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/xingyuelongchen/long.git"
+  },
+  "keywords": [
+    "print",
+    "vue3",
+    "vue",
+    "print"
+  ],
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  }
+}

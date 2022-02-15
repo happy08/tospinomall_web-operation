@@ -1,0 +1,15 @@
+/* element-plus */
+//改变主题色变量
+$--font-size-base: $baseFontSize;
+
+$--input-height: 32px;
+
+$--color-primary: $baseColor;
+
+$--button-padding-vertical: 8px;
+
+$--checkbox-font-size: $baseFontSize;
+
+//改变 icon 字体路径变量，必需
+$--font-path: "~element-plus/lib/theme-chalk/fonts";
+@import "~element-plus/packages/theme-chalk/src/index";
